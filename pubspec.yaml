@@ -1,0 +1,43 @@
+name: wtf_project
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.13.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc: ^7.0.0
+  cupertino_icons: ^1.0.2
+  equatable: ^2.0.2
+  flutter_bloc: ^7.0.1
+  flutter_svg: ^0.22.0
+  image_picker: ^0.7.5
+  intl: ^0.17.0
+  local_auth: ^1.1.6
+  path: ^1.8.0
+  shared_preferences: ^2.0.6
+  sqflite: ^2.0.0+3
+  uuid: ^3.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  bloc_test: ^8.0.1
+  test: ^1.5.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/
+  fonts:
+    - family: Alegreya
+      fonts:
+        - asset: assets/fonts/Alegreya-Medium.ttf
+    - family: AlegreyaSans
+      fonts:
+        - asset: assets/fonts/AlegreyaSans-Medium.ttf
